@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+* {
+    font-family: "Quicksand";
+    box-sizing: border-box;
+}
+
+body {
+  background-color: #55ACEE;
+  background: url('https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1484779568000/photosp/71a0aa94-1185-4552-a9a7-81a071814934/stock-photo-blue-paper-paint-texture-craft-icon-social-media-upload-the-cloud-71a0aa94-1185-4552-a9a7-81a071814934.jpg') 0/cover;
+  color: #fff;
+  min-height: 100vh;
+  margin: 0;
+  font-weight: 400;
+  
+}
+
+header {
+  height: 200px;
+  line-height: 150px;
+  font-size: 2em;
+  text-align: center; 
+  text-shadow: 4px 4px #000;
+}
+
+input {
+	padding: 10px;
+  background-color: #55ACEE;
+  border: 2px solid #fff;
+  border-radius: 5px;
+	color: white;
+	border-bottom: 2px solid #fff;
+	transition: .5s all;
+  outline: none;
+  box-shadow: 2px 2px 5px #444;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  text-shadow: 2px 2px #000;
+}
+
+input[type="submit"] {
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 5px;
+    transition: .5s;
+}
+
+input[type="submit"]:hover {
+  background-color: #1ced96;
+    border: 2px solid #1ced96;
+    padding: 20px;
+} 
